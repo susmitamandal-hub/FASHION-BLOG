@@ -24,7 +24,7 @@ Frontend
 
 
 ## File Structure
-Velvet-Runway
+FASHION LUXE
 
 |-- index.html    # Main HTML file
 
