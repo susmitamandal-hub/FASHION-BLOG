@@ -10,14 +10,13 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #000000;
-    background-color: #0202022e;
+    background-color: #dfae1992;
     margin: 0;
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 ;
 }
 
 /* Header */
@@ -32,35 +31,44 @@ header {
 
 header .logo {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 5rem;
+    font-weight: bolder;
     text-transform: uppercase;
+    margin-left: 0;
 }
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 15px;
+    gap: 35px;
+    font-weight: bolder;
+}
+
+
 
 header nav ul {
     list-style: none;
     display: flex;
 }
 
-header nav ul li {
-    margin-left: 1.5rem;
-}
 
 header nav ul li a {
     color: #0b0000;
+    font-weight: bold;
     text-decoration: none;
     font-size: 1.5rem;
     transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-    color: #f4f4f944;
+    color: #1515ede9;
 }
 
 /* Hero Section */
 .hero {
     height:450px;
-    background-color: #000000;
     background: url("download\ \(1\).jpg");
     background-size: cover;
     color: #00000000;
@@ -76,7 +84,7 @@ header nav ul li a:hover {
 
 .about h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -93,7 +101,7 @@ header nav ul li a:hover {
 .blog h2 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -137,7 +145,7 @@ header nav ul li a:hover {
 }
 
 .post .read-more:hover {
-    color: #555;
+    color: #322fea;
 }
 
 /* Newsletter Section */
@@ -186,7 +194,7 @@ header nav ul li a:hover {
 }
 
 .newsletter button:hover {
-    background: #555;
+    background: #3316eb;
 }
 
 /* Footer */
@@ -215,5 +223,5 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #f4f4f9;
+    color: #1212db;
 }
