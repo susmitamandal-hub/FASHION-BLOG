@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #000000;
-    background-color: #02020294;
+    background-color: #0202022e;
     margin: 0;
 }
 
@@ -59,9 +59,9 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    height:350px;
+    height:450px;
     background-color: #000000;
-    background: url('img1.jpeg');
+    background: url("download\ \(1\).jpg");
     background-size: cover;
     color: #00000000;
     text-align: center;
