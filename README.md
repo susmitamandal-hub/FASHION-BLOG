@@ -1,5 +1,5 @@
 
-##FASHION LUXE | Fashion blog
+## FASHION LUXE | Fashion bolg
 
 FASHION LUXE is a modern, stylish fashion blog website designed to showcase the latest trends, inspirational looks, and eco-conscious fashion choices. The site provides a platform to explore vibrant designs, runway inspirations, and street-style edits.
 
